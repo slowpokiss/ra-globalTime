@@ -1,0 +1,22 @@
+.clock-area {
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid black;
+}
+
+.clock-title {
+  text-align: center;
+}
+
+.clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.clock-delete {
+  cursor: pointer;
+}
